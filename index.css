@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    background-color: #6e54a3;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 80vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 210vh;
+}
+table{
+    box-sizing: border-box;
+    border-collapse:collapse ;
+    display:table;
+    width: 100%;
+    max-width: 600px;
+    letter-spacing: 1px;
+    text-indent: initial;
+    border-spacing: 2px;
+    text-shadow: 1px, 1px, 1px , black;
+}
+td {
+    background-color: #24183e;
+    border: 1px solid #ff9f00;
+    padding: 1px;
+}
+#o {
+    background-color: #58a404;
+    font-size: 20px;
+    font-weight: 2000px;
+    height: 50%;
+    color: white;
+    border-color: inherit;
+    vertical-align: middle;
+    
+}
+.ii input {
+    background-color: #24183e;
+    border: none;
+    max-height: 20%;
+}
+  .z{
+    background-color: #1406ce;
+    width: 500px;
+    color: white;
+    text-align: center;
+}
+.pp input{
+    background-color: #66011c;
+    border: none;
+    max-height: 40px;
+}
+footer{
+    color: white;
+    position: fixed;
+    bottom: 0;
+    left: 400px;
+    right: 0;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.pp {
+    background-color: #66011c;
+    width: 20px;
+}
+input {
+    height: 40%;
+    width: 70%;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-style: unset;
+}
+.hh{
+    background-color: #58a404;
+    color: white;
+    text-align: center;
+    height: 60px;
+
+}
+.c{
+    background-color: #ff9f00;
+    color: #000;;
+    text-align: center;
+    font-weight: bolder;
+}
+.mnr {
+    background-color: #58a404;
+    color: white;
+    text-align: center;
+    height: 60px;
+}
+.reset {
+    background-color: #24183e;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: 1px solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: absolute;
+    bottom: 20px;
+}
